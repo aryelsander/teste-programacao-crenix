@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - GameSlot
+  - GameItem
+  - UIItem
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3854057551
+    locked: 0
+  - name: Foreground
+    uniqueID: 561843645
+    locked: 0
+  - name: UI
+    uniqueID: 1740282897
+    locked: 0
+  - name: Item
+    uniqueID: 1085499171
     locked: 0
