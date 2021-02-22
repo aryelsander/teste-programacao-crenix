@@ -6,7 +6,8 @@ public class UIItem : Item
     public GameItem GameItem { get => gameItem;}
     public override void Select()
     {
-        transform.SetParent(GetComponentInParent<Canvas>().transform);
+        Canvas canvas = GetComponentInParent<Inventory>().SelectedCanvas;
+        transform.SetParent(canvas.transform);
         transform.SetAsLastSibling();
         Vector2 pos = HelperUtilities.GetMousePosition();
         transform.position = pos;
